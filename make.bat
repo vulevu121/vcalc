@@ -1,1 +1,0 @@
-pyinstaller.exe vcalc.spec

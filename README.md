@@ -1,4 +1,4 @@
-# vCalc v0.1
+# vCalc v1.0.0
 ## Yet another useful calc for embedded engineers
 
 vCalc takes Python expressions and output it as decimal, bin, hex, or text; just like how you enter and obtain results in a Python console.
@@ -16,13 +16,13 @@ vCalc takes Python expressions and output it as decimal, bin, hex, or text; just
 ## Installation
 
 ```python
-pip install -r requirements.txt
+uv sync
 ```
 
 ## Build
 
 ```sh
-make.bat
+python make.py
 ```
 
 

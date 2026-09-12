@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['vcalc.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -26,7 +26,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='vcalc',
+    name='vCalc',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -37,7 +37,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=os.path.abspath('icon/calc.png'),
+    icon=os.path.abspath('app/icon/calc.png'),
 )
 coll = COLLECT(
     exe,
@@ -47,5 +47,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='vcalc',
+    name='vCalc',
 )

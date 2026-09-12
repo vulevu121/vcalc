@@ -1,0 +1,16 @@
+[project]
+name = "vCalc"
+version = "1.0.0"
+description = "Engineering calculator"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=12.3.0",
+    "pyinstaller>=6.22.2",
+    "pyqt5>=5.15.11",
+]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'win32' and platform_machine == 'AMD64'"
+]
